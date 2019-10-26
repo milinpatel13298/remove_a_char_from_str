@@ -16,8 +16,10 @@ def remove(str,k):
                 return remove(str,pos)
             else:return str
         else:return remove(str,pos)
-"""str='string'
+"""
+str='string'
 str=remove(str,'i')     #removes 'i' from str
 print(str)
 str=remove(str,1)       #removes str[1] from str
-print(str)"""
+print(str)
+"""
